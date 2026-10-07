@@ -3,7 +3,7 @@ from datetime import datetime
 
 station = "ST-01"
 status = sys.argv[1] if len(sys.argv) > 1 else "RUN"
-time = datetime.now().strftime("%Y-%m-%d %H:%M:%M")
+time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 line = f"{time} | Állomás: {station} | Állapot: {status}"
 if status == "STOP":
     line += "  <<< WARNING: station stopped! Call maintenance."
