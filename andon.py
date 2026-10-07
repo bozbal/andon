@@ -1,6 +1,9 @@
+from datetime import datetime
+
 station = "ST-01"
 status = "WAIT"
-line = f"Állomás: {station} | Állapot: {status}"
+time = datetime.now().strftime("%Y-%m-%d %H:%M:%M")
+line = f"{time} | Állomás: {station} | Állapot: {status}"
 if status == "STOP":
     line += "  <<< FIGYELEM: az állomás áll!"
 elif status == "WAIT":
