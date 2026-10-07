@@ -9,6 +9,8 @@ if status == "STOP":
     line += "  <<< WARNING: station stopped! Call maintenance."
 elif status == "WAIT":
     line += "  <<< Várakozás anyagra"
+elif status == "IDLE":
+    line += "  <<< Idle: no order"
 print(line)
 with open("andon.log", "a", encoding="utf-8") as log:
     log.write(line + "\n")
