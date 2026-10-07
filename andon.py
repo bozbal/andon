@@ -5,7 +5,7 @@ status = "WAIT"
 time = datetime.now().strftime("%Y-%m-%d %H:%M:%M")
 line = f"{time} | Állomás: {station} | Állapot: {status}"
 if status == "STOP":
-    line += "  <<< FIGYELEM: az állomás áll!"
+    line += "  <<< FIGYELEM: az állomás áll! Hívd a karbantartót."
 elif status == "WAIT":
     line += "  <<< Várakozás anyagra"
 print(line)
