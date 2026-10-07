@@ -6,3 +6,4 @@ logÁllomás: ST-01 | Állapot: STOP  <<< FIGYELEM: az állomás áll!
 Állomás: ST-01 | Állapot: STOP  <<< FIGYELEM: az állomás áll!
 Állomás: ST-01 | Állapot: WAIT  <<< Várakozás anyagra
 2026-10-07 11:15:15 | Állomás: ST-01 | Állapot: RUN
+2026-10-07 12:47:01 | Állomás: ST-01 | Állapot: STOP  <<< WARNING: station stopped! Call maintenance.
